@@ -12,8 +12,8 @@
     section#login>div#imagem {
         float: left;
         width: 40%;
-        height: 100vh;
-        position: top;transform: translateY(-200px);
+        height: 100%;
+        
     }
     section#login>div#formulario {
         float: right;
@@ -24,15 +24,18 @@
 @media screen and (min-width:992px) {
     body{/* CONFIGURAÇÃO PARA PC E TELAS GRANDES*/
         background-image: linear-gradient(to bottom,  #33B0DE, #3D7A2C);
+        
     }
     
     section#login{
         width:900px;
+        
     }
     section#login>div#imagem{
     float: right;
     width: 50%;
-    height: 100vh;  
+    height: 100%;
+     
     }
     section#login>div#formulario {
         float: left;
